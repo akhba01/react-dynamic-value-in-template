@@ -16,7 +16,7 @@ export default function App() {
         <p>{ 10 }</p>
         <p>{ "Hello, Ninjas"}</p>
         <p>{[1,2,3,4,5]}</p>
-        <p>{ Math.random() * 100}</p>
+        <p>{ Math.floor(Math.random() * 100) }</p>
         <a href={link}>Google Site</a>
       </div>
     </div>
